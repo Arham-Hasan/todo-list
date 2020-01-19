@@ -1,0 +1,85 @@
+#box{
+	width: 30%;
+	margin: 15vh auto;
+	box-shadow: 0 0 10vh rgba(0,0,0,0.75); 
+
+}
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
+html { 
+  background: url(https://txcatholic.org/wp-content/uploads/2019/03/Notebook-pen-and-coffee-for-web-white-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  max-height: 100%
+  scroll-behavior: smooth;
+  will-change: transform;
+
+}
+*{
+	 backdrop-filter: blur(5px);
+}
+h1{
+	border-bottom: 0.1vh solid black;
+	margin: 0;
+	padding: 2vh;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+
+	border-bottom: 0.05vh solid silver; 
+	padding: 2vh;
+	font-size: 2vh;
+
+}
+ul li:hover{
+	cursor: pointer;
+}
+
+body{
+	font-family:'Raleway', sans-serif;
+}
+
+input{
+	background-color: transparent;
+	width: 100%;
+	padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+	box-sizing: border-box;
+	font-size: 1.5vh;
+
+}
+input:focus{
+	background-color: ghostwhite;
+	border: 0.25vh solid black;
+	outline: none;
+}
+span{
+	border: 0.1vh solid black;
+	padding: 0.25vh;
+	margin-right: 3vh;
+	border-radius: 0.50vh;
+
+}
+span:hover{
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+#clear{
+	font-size: 1.75vh;
+	margin: 0;
+	float: right;
+}
+
+
